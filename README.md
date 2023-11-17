@@ -13,9 +13,9 @@ _Completing 5 different Intermediate-Projects Challenge 🚀_
 
 <br><br>
 
-| Project Name            | Project Deployed Link                                                             |
-| ----------------------- | --------------------------------------------------------------------------------- |
-| Sample Personal Website | [Preview](https://sazit96.github.io/HTML-And-CSS-Projects/SamplePersonalWebsite/) |
+| Project Name            | Project Deployed Link |
+| ----------------------- | --------------------- |
+| Sample Personal Website | [Preview](#)          |
 
 ## Author 👋 :
 
