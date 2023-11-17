@@ -13,9 +13,9 @@ _Completing 5 different Intermediate-Projects Challenge 🚀_
 
 <br><br>
 
-| Project Name            | Project Deployed Link |
-| ----------------------- | --------------------- |
-| Sample Personal Website | [Preview](#)          |
+| Project Name      | Project Deployed Link                                                                    |
+| ----------------- | ---------------------------------------------------------------------------------------- |
+| Lisbon Chair Shop | [Preview](https://sazit96.github.io/Intermediate-HTML-And-CSS-Projects/LisbonChairShop/) |
 
 ## Author 👋 :
 
