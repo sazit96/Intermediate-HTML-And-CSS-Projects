@@ -41,4 +41,25 @@
         font-size: 1.5rem;
     }
 
+    /* inputs */
+    .input {
+        font-size: 1.5rem;
+    }
+
+    /* plan */
+    .plan__name {
+        font-size: 1.4rem;
+      }
+    
+      .plan__price {
+        font-size: 5rem;
+      }
+    
+      .plan__billing-cycle {
+        font-size: 1.6rem;
+      }
+    
+      .plan__description {
+        font-size: 1.7rem;
+      }
 }
