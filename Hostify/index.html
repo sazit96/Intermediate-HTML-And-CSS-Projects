@@ -12,12 +12,33 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>Document</title>
   </head>
   <body>
-    <div class="input-group">
-      <input class="input" type="text" placeholder="inter your domanname" />
-      <button class="btn btn-accent">Search</button>
-    </div>
+    <section class="collapsible collapsible--expanded footer__section">
+      <div class="collapsible__header">
+        <h2 class="collapsible__heading footer__heading">Products</h2>
+        <ion-icon
+          class="icon icon--white collapsible__chevron"
+          name="chevron-down-outline"
+        ></ion-icon>
+      </div>
+      <div class="collapsible__content">
+        <ul class="list">
+          <li><a href="#">Website Hosting</a></li>
+          <li><a href="#">Free Automated Wordpress</a></li>
+          <li><a href="#">Migrations</a></li>
+        </ul>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
   </body>
 </html>

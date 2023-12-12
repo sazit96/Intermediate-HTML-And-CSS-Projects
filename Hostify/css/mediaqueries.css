@@ -51,15 +51,43 @@
         font-size: 1.4rem;
       }
     
-      .plan__price {
+    .plan__price {
         font-size: 5rem;
-      }
+    }
     
-      .plan__billing-cycle {
+    .plan__billing-cycle {
         font-size: 1.6rem;
-      }
+    }
     
-      .plan__description {
+    .plan__description {
         font-size: 1.7rem;
-      }
+    }
+    .grid--1x3 {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (min-width: 778px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .testimonial .quote {
+        margin: 5rem 0 0 6rem;
+        font-size: 120%;
+        line-height: 1.5;
+    }
+
+    .callout__content {
+        text-align: left;
+    }
+
+    .callout .btn {
+        justify-self: start;
+        margin: 0 2rem;
+    }
+
+    .callout .grid--1x2 {
+        grid-template-columns: 1fr auto;
+    }
 }
