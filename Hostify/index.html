@@ -23,22 +23,126 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="collapsible collapsible--expanded footer__section">
-      <div class="collapsible__header">
-        <h2 class="collapsible__heading footer__heading">Products</h2>
-        <ion-icon
-          class="icon icon--white collapsible__chevron"
-          name="chevron-down-outline"
-        ></ion-icon>
-      </div>
-      <div class="collapsible__content">
-        <ul class="list">
-          <li><a href="#">Website Hosting</a></li>
-          <li><a href="#">Free Automated Wordpress</a></li>
-          <li><a href="#">Migrations</a></li>
-        </ul>
+    <!-- Hero Section -->
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Cloud Hosting for Pros</h1>
+          <p class="hero__tagline">
+            Deploy your websites in less than 60 seconds.
+          </p>
+          <a href="" class="btn btn--accent btn--stretched">get started</a>
+        </header>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="image/banner.webp 1x, image/banner@2x.webp 2x" />
+          <source
+            type="image/png"
+            srcset="image/banner.png 1x, image/banner@2x.png" />
+          <img class="hero__image" src="image/banner.png" alt=""
+        /></picture>
       </div>
     </section>
+
+    <!-- Domain Section -->
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2>Starting at $10 per month</h2>
+        <p>
+          Elevate your experience with our affordable subscription, offering
+          exclusive benefits that enhance your journey. Join today for
+          unparalleled value and enjoyment
+        </p>
+      </header>
+      <div class="input-group">
+        <input
+          aria-label="Domain"
+          type="text"
+          class="input"
+          placeholder="Enter domain name here..."
+        />
+        <button class="btn btn--accent">
+          <ion-icon class="icon" name="search-outline">Search</ion-icon>
+          Search
+        </button>
+      </div>
+      <ul class="block-domain__prices list">
+        <li><span class="badge badge--secondary">.com $9</span></li>
+        <li>.sg $10</li>
+        <li>.space $11</li>
+        <li>.info $14</li>
+        <li>.net $10</li>
+        <li>.xyz $10</li>
+      </ul>
+    </section>
+
+    <!-- Plan Section -->
+    <section class="block container block-plan">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">$14</span>
+              <span class="plan__billing-cycle">/month</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">Easy start on the cloud</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul>
+              <button class="btn btn--block btn--outline">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">$14</span>
+              <span class="plan__billing-cycle">/month</span>
+              <span class="badge badge--primary badge--small">10% OFF</span>
+              <span class="plan__description">Easy start on the cloud</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul>
+              <button class="btn btn--block btn--outline">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Entry</h3>
+              <span class="plan__price">$14</span>
+              <span class="plan__billing-cycle">/month</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">Easy start on the cloud</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul>
+              <button class="btn btn--block btn--outline">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="js/main.js"></script>
   </body>
 </html>
