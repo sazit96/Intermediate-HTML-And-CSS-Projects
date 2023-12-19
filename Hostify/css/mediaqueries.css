@@ -62,6 +62,19 @@
     .plan__description {
         font-size: 1.7rem;
     }
+
+    .quote {
+        font-size: 2rem;
+    }
+    
+    .quote__author {
+        font-size: 2.4rem;
+    }
+    
+    .quote__organization {
+        font-size: 1.6rem;
+    }
+
     .grid--1x3 {
         grid-template-columns: repeat(3,1fr);
     }
@@ -72,10 +85,18 @@
         grid-template-columns: repeat(2,1fr);
     }
 
+    .testimonial__image {
+        margin: 0;
+    }
+    
+    .testimonial .quote,
+    .testimonial .quote__author {
+        font-size: 2.4rem;
+    }
+    
     .testimonial .quote {
-        margin: 5rem 0 0 6rem;
-        font-size: 120%;
-        line-height: 1.5;
+        margin-left: 6rem;
+        margin-right: 0;
     }
 
     .callout__content {
@@ -114,5 +135,60 @@
     .hero__content {
         text-align: left;
         align-self: center;
+    }
+
+    .block-domain__prices {
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr)) ;
+    }
+
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
+
+    .block-showcase .grid {
+        grid-template-columns: 50% 50%;
+    }
+    
+    .block-showcase__image {
+        justify-self: end;
+    }
+    
+    .block-showcase__image > img {
+        width: auto;
+        max-width: 700px;
+    }
+
+    .footer {
+        font-size: 1.5rem;
+    }
+
+    .footer__sections {
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+     }
+    
+    .footer .collapsible__chevron {
+        display: none;
+    }
+    
+    .footer .collapsible__content {
+        opacity: 1;
+        max-height: 100%;
+    }
+    
+    .footer__brand {
+        order: -1;
+        margin-top: 1rem;
+    }
+    
+    .footer__copyright {
+        font-size: 1.5rem;
+    }
+    
+    .footer__section {
+        border: 0;
+    }
+    
+    .footer__heading {
+        font-size: 1.6rem;
     }
 }
