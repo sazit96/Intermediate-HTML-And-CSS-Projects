@@ -17,6 +17,7 @@ _Completing 5 different Intermediate-Projects Challenge 🚀_
 | ----------------- | ---------------------------------------------------------------------------------------- |
 | Lisbon Chair Shop | [Preview](https://sazit96.github.io/Intermediate-HTML-And-CSS-Projects/LisbonChairShop/) |
 | Omnifood          | [Preview](https://sazit96.github.io/Intermediate-HTML-And-CSS-Projects/OmniFood/)        |
+| Hostify           | [Preview](https://sazit96.github.io/Intermediate-HTML-And-CSS-Projects/Hostify/)         |
 
 ## Author 👋 :
 
